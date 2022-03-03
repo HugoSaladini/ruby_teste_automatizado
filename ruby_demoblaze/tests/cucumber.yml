@@ -1,0 +1,7 @@
+## YAML Templates
+---
+
+default: -p pretty -p homolog -p html
+pretty: --format pretty
+html: --format html --out=results/report.html
+homolog: ENVIRONMENT_TYPE=homolog
